@@ -22,7 +22,7 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 while True:
-    print("For example, 'Ann Arbor, MI'")
+    print("For example, 'Tokyo'")
     address = input('Enter location: ')
     if len(address) < 1:
         break
